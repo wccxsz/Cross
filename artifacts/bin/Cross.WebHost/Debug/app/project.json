@@ -1,0 +1,36 @@
+{
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+  "dependencies": {
+    "Cross.WebHost": "1.0.0"
+  },
+  "commands": {
+    "ef": "EntityFramework.Commands",
+    "run": "run server.urls=http://localhost:5003",
+    "web": "Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5000",
+    "kestrel": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5004",
+    "weblistener": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5002"
+  },
+  "frameworks": {
+    "dnx451": {},
+    "dnxcore50": {
+      "dependencies": {
+        "System.Runtime.Serialization.Primitives": "4.0.10-*"
+      }
+    }
+  },
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "entryPoint": "Cross.WebHost",
+  "loadable": false
+}

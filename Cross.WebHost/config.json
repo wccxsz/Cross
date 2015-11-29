@@ -1,0 +1,12 @@
+﻿{
+    "AppSettings": {
+        "SiteTitle": "ASP.NET MVC Music Store"
+    },
+    "DefaultAdminUsername": "sa",
+    "DefaultAdminPassword": "1qazXSW@",
+    "Data": {
+        "DefaultConnection": {            
+            "Connectionstring": "Data Source=.; Initial Catalog=CrossDb; User ID=sa; PassWord=1qazXSW@;Connect Timeout=30;"
+        }
+    }
+}
