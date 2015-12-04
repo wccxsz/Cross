@@ -4,5 +4,178 @@
         <name>Cross.WebHost</name>
     </assembly>
     <members>
+        <member name="P:Cross.WebHost.Entities.Role.Id">
+            <summary>
+            Gets or sets the primary key for this role.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.Role.Name">
+            <summary>
+            Gets or sets the name for this role.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.Role.NormalizedName">
+            <summary>
+            Gets or sets the normalized name for this role.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.Role.ConcurrencyStamp">
+            <summary>
+            A random value that should change whenever a role is persisted to the store
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.Role.Users">
+            <summary>
+            Navigation property for the users in this role.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.Role.RoleClaims">
+            <summary>
+            Navigation property for claims in this role.
+            </summary>
+        </member>
+        <member name="M:Cross.WebHost.Entities.Role.ToString">
+            <summary>
+            Returns the name of the role.
+            </summary>
+            <returns>The name of the role.</returns>
+        </member>
+        <member name="P:Cross.WebHost.Entities.RoleClaim.Id">
+            <summary>
+            Gets or sets the identifier for this role claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.RoleClaim.Role">
+            <summary>
+            Gets or sets the role associated with this claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.RoleClaim.ClaimType">
+            <summary>
+            Gets or sets the claim type for this claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.RoleClaim.ClaimValue">
+            <summary>
+            Gets or sets the claim value for this claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.UserName">
+            <summary>
+            Gets or sets the user name for this user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.NormalizedUserName">
+            <summary>
+            Gets or sets the normalized user name for this user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.Email">
+            <summary>
+            Gets or sets the email address for this user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.NormalizedEmail">
+            <summary>
+            Gets or sets the normalized email address for this user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.EmailConfirmed">
+            <summary>
+            Gets or sets a flag indicating if a user has confirmed their email address.
+            </summary>
+            <value>True if the email address has been confirmed, otherwise false.</value>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.PasswordHash">
+            <summary>
+            Gets or sets a salted and hashed representation of the password for this user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.SecurityStamp">
+            <summary>
+            A random value that must change whenever a users credentials change (password changed, login removed)
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.ConcurrencyStamp">
+            <summary>
+            A random value that must change whenever a user is persisted to the store
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.PhoneNumber">
+            <summary>
+            Gets or sets a telephone number for the user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.PhoneNumberConfirmed">
+            <summary>
+            Gets or sets a flag indicating if a user has confirmed their telephone address.
+            </summary>
+            <value>True if the telephone number has been confirmed, otherwise false.</value>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.TwoFactorEnabled">
+            <summary>
+            Gets or sets a flag indicating if two factor authentication is enabled for this user.
+            </summary>
+            <value>True if 2fa is enabled, otherwise false.</value>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.LockoutEnd">
+            <summary>
+            Gets or sets the date and time, in UTC, when any user lockout ends.
+            </summary>
+            <remarks>
+            A value in the past means the user is not locked out.
+            </remarks>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.LockoutEnabled">
+            <summary>
+            Gets or sets a flag indicating if this user is locked out.
+            </summary>
+            <value>True if the user is locked out, otherwise false.</value>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.AccessFailedCount">
+            <summary>
+            Gets or sets the number of failed login attempts for the current user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.Created">
+            <summary>
+            User crated time
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.Roles">
+            <summary>
+            User of roles
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.User.UserClaims">
+            <summary>
+            Navigation property for the claims this user possesses.
+            </summary>
+        </member>
+        <member name="M:Cross.WebHost.Entities.User.ToString">
+            <summary>
+            Returns the username for this user.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.UserClaim.Id">
+            <summary>
+            Gets or sets the identifier for this user claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.UserClaim.User">
+            <summary>
+            Gets or sets the of the primary key of the user associated with this claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.UserClaim.ClaimType">
+            <summary>
+            Gets or sets the claim type for this claim.
+            </summary>
+        </member>
+        <member name="P:Cross.WebHost.Entities.UserClaim.ClaimValue">
+            <summary>
+            Gets or sets the claim value for this claim.
+            </summary>
+        </member>
     </members>
 </doc>

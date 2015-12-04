@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cross.WebHost.Dbcontext;
+using Cross.WebHost.Db;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Cross.WebHost.Common

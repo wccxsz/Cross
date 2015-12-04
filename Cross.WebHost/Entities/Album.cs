@@ -22,6 +22,6 @@ namespace Cross.WebHost.Entities
         [Required]
         public DateTime Updated { get; set; }
 
-        public ApplicationUser CreateUser { get; set; }
+        public User CreateUser { get; set; }
     }
 }

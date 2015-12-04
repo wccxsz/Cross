@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.PlatformAbstractions;
 using Cross.WebHost.Common;
-using Cross.WebHost.Dbcontext;
+using Cross.WebHost.Db;
 using Microsoft.Data.Entity;
 
 namespace Cross.WebHost
