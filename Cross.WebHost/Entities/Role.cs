@@ -28,7 +28,7 @@ namespace Cross.WebHost.Entities
         /// <summary>
         /// Navigation property for the users in this role.
         /// </summary>
-        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<UserInRole> UserInRoles { get; set; }
 
         /// <summary>
         /// Navigation property for claims in this role.

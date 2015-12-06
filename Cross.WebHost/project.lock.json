@@ -1750,10 +1750,10 @@
           "lib/net451/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1768,7 +1768,7 @@
           "lib/dnx451/Microsoft.Framework.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1783,10 +1783,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1801,10 +1801,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1819,11 +1819,11 @@
           "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669",
+          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1858,7 +1858,7 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3668,41 +3668,41 @@
           "lib/dotnet5.4/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8-15638",
-          "System.Collections": "4.0.11-beta-23323",
-          "System.Diagnostics.Debug": "4.0.11-beta-23323",
-          "System.IO": "4.0.11-beta-23323",
-          "System.IO.FileSystem": "4.0.1-beta-23323",
-          "System.Resources.ResourceManager": "4.0.1-beta-23323",
-          "System.Runtime.Extensions": "4.0.11-beta-23323",
-          "System.Runtime.InteropServices": "4.0.21-beta-23323"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15669",
+          "System.Collections": "4.0.11-beta-23326",
+          "System.Diagnostics.Debug": "4.0.11-beta-23326",
+          "System.IO": "4.0.11-beta-23326",
+          "System.IO.FileSystem": "4.0.1-beta-23326",
+          "System.Resources.ResourceManager": "4.0.1-beta-23326",
+          "System.Runtime.Extensions": "4.0.11-beta-23326",
+          "System.Runtime.InteropServices": "4.0.21-beta-23326"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "System.Linq": "4.0.1-beta-23323"
+          "System.Linq": "4.0.1-beta-23326"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "compile": {
           "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
@@ -3711,10 +3711,10 @@
           "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "compile": {
           "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll": {}
@@ -3723,17 +3723,17 @@
           "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669",
+          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-rc1-15669"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll": {}
         }
       },
       "Microsoft.Framework.Configuration.Json/1.0.0-beta8": {
@@ -3751,7 +3751,7 @@
           "lib/dnxcore50/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel": "4.0.1-beta-23326",
@@ -6700,10 +6700,10 @@
           "lib/net451/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6718,7 +6718,7 @@
           "lib/dnx451/Microsoft.Framework.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6733,10 +6733,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6751,10 +6751,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6769,11 +6769,11 @@
           "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669",
+          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -6808,7 +6808,7 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -8854,10 +8854,10 @@
           "lib/net451/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -8872,7 +8872,7 @@
           "lib/dnx451/Microsoft.Framework.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -8887,10 +8887,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -8905,10 +8905,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -8923,11 +8923,11 @@
           "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669",
+          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-rc1-15669"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -8962,7 +8962,7 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -10775,41 +10775,41 @@
           "lib/dotnet5.4/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8-15638",
-          "System.Collections": "4.0.11-beta-23323",
-          "System.Diagnostics.Debug": "4.0.11-beta-23323",
-          "System.IO": "4.0.11-beta-23323",
-          "System.IO.FileSystem": "4.0.1-beta-23323",
-          "System.Resources.ResourceManager": "4.0.1-beta-23323",
-          "System.Runtime.Extensions": "4.0.11-beta-23323",
-          "System.Runtime.InteropServices": "4.0.21-beta-23323"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15669",
+          "System.Collections": "4.0.11-beta-23326",
+          "System.Diagnostics.Debug": "4.0.11-beta-23326",
+          "System.IO": "4.0.11-beta-23326",
+          "System.IO.FileSystem": "4.0.1-beta-23326",
+          "System.Resources.ResourceManager": "4.0.1-beta-23326",
+          "System.Runtime.Extensions": "4.0.11-beta-23326",
+          "System.Runtime.InteropServices": "4.0.21-beta-23326"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "System.Linq": "4.0.1-beta-23323"
+          "System.Linq": "4.0.1-beta-23326"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "compile": {
           "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
@@ -10818,10 +10818,10 @@
           "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "compile": {
           "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll": {}
@@ -10830,17 +10830,17 @@
           "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669",
+          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-rc1-15669"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll": {}
         }
       },
       "Microsoft.Framework.Configuration.Json/1.0.0-beta8": {
@@ -10858,7 +10858,7 @@
           "lib/dnxcore50/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel": "4.0.1-beta-23326",
@@ -14103,41 +14103,41 @@
           "lib/dotnet5.4/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8-15638",
-          "System.Collections": "4.0.11-beta-23323",
-          "System.Diagnostics.Debug": "4.0.11-beta-23323",
-          "System.IO": "4.0.11-beta-23323",
-          "System.IO.FileSystem": "4.0.1-beta-23323",
-          "System.Resources.ResourceManager": "4.0.1-beta-23323",
-          "System.Runtime.Extensions": "4.0.11-beta-23323",
-          "System.Runtime.InteropServices": "4.0.21-beta-23323"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15669",
+          "System.Collections": "4.0.11-beta-23326",
+          "System.Diagnostics.Debug": "4.0.11-beta-23326",
+          "System.IO": "4.0.11-beta-23326",
+          "System.IO.FileSystem": "4.0.1-beta-23326",
+          "System.Resources.ResourceManager": "4.0.1-beta-23326",
+          "System.Runtime.Extensions": "4.0.11-beta-23326",
+          "System.Runtime.InteropServices": "4.0.21-beta-23326"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "System.Linq": "4.0.1-beta-23323"
+          "System.Linq": "4.0.1-beta-23326"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "compile": {
           "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
@@ -14146,10 +14146,10 @@
           "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669"
         },
         "compile": {
           "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll": {}
@@ -14158,17 +14158,17 @@
           "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+      "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8-15638",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8-15638"
+          "Microsoft.Framework.Configuration": "1.0.0-rc1-15669",
+          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-rc1-15669"
         },
         "compile": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll": {}
         },
         "runtime": {
-          "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll": {}
+          "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll": {}
         }
       },
       "Microsoft.Framework.Configuration.Json/1.0.0-beta8": {
@@ -14186,7 +14186,7 @@
           "lib/dnxcore50/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+      "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel": "4.0.1-beta-23326",
@@ -17347,42 +17347,46 @@
         "Microsoft.Extensions.WebEncoders.Core.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration/1.0.0-beta8-15638": {
+    "Microsoft.Framework.Configuration/1.0.0-rc1-15669": {
       "type": "package",
       "serviceable": true,
-      "sha512": "CagBPVTzc3GP4adSqFTb7PGQdFtg8l8eG03Nx3+S+0f5JBs5Vx00gsGqKAkb6B8Y5Qhnpg8iQ75LiePYoOIAeA==",
+      "sha512": "Rax7dEiiPJYlYRXqmcvyMzxHE/9ezUsVAw+65O3jenDYj+bgPnwgqR6mQsmjyXCM6B5HPVKGUR4OcrTot15WuA==",
       "files": [
         "lib/dnx451/Microsoft.Framework.Configuration.dll",
         "lib/dnx451/Microsoft.Framework.Configuration.xml",
+        "lib/dnxcore50/Microsoft.Framework.Configuration.dll",
+        "lib/dnxcore50/Microsoft.Framework.Configuration.xml",
         "lib/dotnet/Microsoft.Framework.Configuration.dll",
         "lib/dotnet/Microsoft.Framework.Configuration.xml",
         "lib/net45/Microsoft.Framework.Configuration.dll",
         "lib/net45/Microsoft.Framework.Configuration.xml",
-        "Microsoft.Framework.Configuration.1.0.0-beta8-15638.nupkg",
-        "Microsoft.Framework.Configuration.1.0.0-beta8-15638.nupkg.sha512",
+        "Microsoft.Framework.Configuration.1.0.0-rc1-15669.nupkg",
+        "Microsoft.Framework.Configuration.1.0.0-rc1-15669.nupkg.sha512",
         "Microsoft.Framework.Configuration.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8-15638": {
+    "Microsoft.Framework.Configuration.Abstractions/1.0.0-rc1-15669": {
       "type": "package",
       "serviceable": true,
-      "sha512": "BrPX5NYJV1Zwh9CiUrVrmyNk2Mz+Mp1Ly3JW4qZiqMrIhI6o8sv4YMdcIk119Dw7jriGgFsa0lhxCQmBEK59Rg==",
+      "sha512": "wSkOjLPvzUJGmcftkd9bd2wUGXaLUDATPuTgHI03hEYaYDrP057QYD3dapmdF/9rZF86MlNX13J7+zWY6GB4TA==",
       "files": [
         "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll",
         "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.xml",
+        "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll",
+        "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.xml",
         "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll",
         "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.xml",
         "lib/net45/Microsoft.Framework.Configuration.Abstractions.dll",
         "lib/net45/Microsoft.Framework.Configuration.Abstractions.xml",
-        "Microsoft.Framework.Configuration.Abstractions.1.0.0-beta8-15638.nupkg",
-        "Microsoft.Framework.Configuration.Abstractions.1.0.0-beta8-15638.nupkg.sha512",
+        "Microsoft.Framework.Configuration.Abstractions.1.0.0-rc1-15669.nupkg",
+        "Microsoft.Framework.Configuration.Abstractions.1.0.0-rc1-15669.nupkg.sha512",
         "Microsoft.Framework.Configuration.Abstractions.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8-15638": {
+    "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-rc1-15669": {
       "type": "package",
       "serviceable": true,
-      "sha512": "YgMU+Jn9JgZwOBGL8GJXTqx8cxqYN1dXxBmvKFdrd9nytV1DJnoNMdDbtbrISlrfgDMdXhLczwwCDvJwr6/mVw==",
+      "sha512": "aWhPKtsCW0lmJ4xPIcj1d7zD3DQq2Ut3mE/RkxwCbeLagTWpCafRuIrqvfLqhkd7YreeSqNr/VAg2wTTtvHNng==",
       "files": [
         "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll",
         "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.xml",
@@ -17390,15 +17394,15 @@
         "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.xml",
         "lib/net45/Microsoft.Framework.Configuration.EnvironmentVariables.dll",
         "lib/net45/Microsoft.Framework.Configuration.EnvironmentVariables.xml",
-        "Microsoft.Framework.Configuration.EnvironmentVariables.1.0.0-beta8-15638.nupkg",
-        "Microsoft.Framework.Configuration.EnvironmentVariables.1.0.0-beta8-15638.nupkg.sha512",
+        "Microsoft.Framework.Configuration.EnvironmentVariables.1.0.0-rc1-15669.nupkg",
+        "Microsoft.Framework.Configuration.EnvironmentVariables.1.0.0-rc1-15669.nupkg.sha512",
         "Microsoft.Framework.Configuration.EnvironmentVariables.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8-15638": {
+    "Microsoft.Framework.Configuration.FileExtensions/1.0.0-rc1-15669": {
       "type": "package",
       "serviceable": true,
-      "sha512": "fIEf9cFAxyNhREJDka5oG1lkjdG5X2HmL3sxehrbCsTG1xI5t8iW0n3VFttQTTSaXKwKGkDdKGTCJfVPc2nhwQ==",
+      "sha512": "S/5ZO8x8EDPXGeRuKsKXD1CKLFJVRwPwjYOjHGJ9po636IOCUJzx9X7v4B55qR4OTAhHxkt/Rtf/TfanfLWFWQ==",
       "files": [
         "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll",
         "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.xml",
@@ -17406,24 +17410,26 @@
         "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.xml",
         "lib/net45/Microsoft.Framework.Configuration.FileExtensions.dll",
         "lib/net45/Microsoft.Framework.Configuration.FileExtensions.xml",
-        "Microsoft.Framework.Configuration.FileExtensions.1.0.0-beta8-15638.nupkg",
-        "Microsoft.Framework.Configuration.FileExtensions.1.0.0-beta8-15638.nupkg.sha512",
+        "Microsoft.Framework.Configuration.FileExtensions.1.0.0-rc1-15669.nupkg",
+        "Microsoft.Framework.Configuration.FileExtensions.1.0.0-rc1-15669.nupkg.sha512",
         "Microsoft.Framework.Configuration.FileExtensions.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.Ini/1.0.0-beta8-15638": {
+    "Microsoft.Framework.Configuration.Ini/1.0.0-rc1-15669": {
       "type": "package",
       "serviceable": true,
-      "sha512": "tFMd3wQW8qAM2OqE6pk4TT3VJKf4I7XLVfP6MGPFd6vEiMuM+qtj9NR02UjnkyIdhaKXsDr7ZwnBQA1MmHun6w==",
+      "sha512": "cOkem5evzGTV0bRTdkk5nJZSHJDW6VWg+9bRqU9U9/RaZ5EHCbfQqpI5/uWjluDL6DcunUt2On8X2k6uEAnWKw==",
       "files": [
         "lib/dnx451/Microsoft.Framework.Configuration.Ini.dll",
         "lib/dnx451/Microsoft.Framework.Configuration.Ini.xml",
+        "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.dll",
+        "lib/dnxcore50/Microsoft.Framework.Configuration.Ini.xml",
         "lib/dotnet/Microsoft.Framework.Configuration.Ini.dll",
         "lib/dotnet/Microsoft.Framework.Configuration.Ini.xml",
         "lib/net45/Microsoft.Framework.Configuration.Ini.dll",
         "lib/net45/Microsoft.Framework.Configuration.Ini.xml",
-        "Microsoft.Framework.Configuration.Ini.1.0.0-beta8-15638.nupkg",
-        "Microsoft.Framework.Configuration.Ini.1.0.0-beta8-15638.nupkg.sha512",
+        "Microsoft.Framework.Configuration.Ini.1.0.0-rc1-15669.nupkg",
+        "Microsoft.Framework.Configuration.Ini.1.0.0-rc1-15669.nupkg.sha512",
         "Microsoft.Framework.Configuration.Ini.nuspec"
       ]
     },
@@ -17445,10 +17451,10 @@
         "Microsoft.Framework.Configuration.Json.nuspec"
       ]
     },
-    "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15649": {
+    "Microsoft.Framework.WebEncoders.Core/1.0.0-rc1-15669": {
       "type": "package",
       "serviceable": true,
-      "sha512": "eSVBfuHoFSNZfmQcnMSD4gR/fISlbriGIIpMu3z5GhEjHJlF21x90Q6hkmw1wYxAxMLM4yn1XiLDcdPKYXhOKA==",
+      "sha512": "NzaCCri9bYThM0WPbVllAEAkiWynpcanJ8LVFDWrhibR4qlIX5EWaqG7CQCrbAeB63kY9Q3EB2iP7/dsQiXlYQ==",
       "files": [
         "lib/dnx451/Microsoft.Framework.WebEncoders.Core.dll",
         "lib/dnx451/Microsoft.Framework.WebEncoders.Core.xml",
@@ -17456,8 +17462,8 @@
         "lib/dnxcore50/Microsoft.Framework.WebEncoders.Core.xml",
         "lib/net45/Microsoft.Framework.WebEncoders.Core.dll",
         "lib/net45/Microsoft.Framework.WebEncoders.Core.xml",
-        "Microsoft.Framework.WebEncoders.Core.1.0.0-rc1-15649.nupkg",
-        "Microsoft.Framework.WebEncoders.Core.1.0.0-rc1-15649.nupkg.sha512",
+        "Microsoft.Framework.WebEncoders.Core.1.0.0-rc1-15669.nupkg",
+        "Microsoft.Framework.WebEncoders.Core.1.0.0-rc1-15669.nupkg.sha512",
         "Microsoft.Framework.WebEncoders.Core.nuspec"
       ]
     },
@@ -20159,7 +20165,7 @@
     "System.Reflection.Metadata/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "RLIE4sSt2zngMLuqM6YmxBH99mTumtT4DNZE4+msfEaInUP5iCLQT+BHPl+2cjSAP1pdALyAjLB8RtCB+WGGWQ==",
+      "sha512": "a8VsRm/B0Ik1o5FumSMWmpwbG7cvIIajAYhzTTy9VB9XItByJDQHGZkQTIAdsvVJ6MI5O3uH/lb0izgQDlDIWA==",
       "files": [
         "lib/dotnet5.2/System.Reflection.Metadata.dll",
         "lib/dotnet5.2/System.Reflection.Metadata.xml",

@@ -24,7 +24,7 @@
             A random value that should change whenever a role is persisted to the store
             </summary>
         </member>
-        <member name="P:Cross.WebHost.Entities.Role.Users">
+        <member name="P:Cross.WebHost.Entities.Role.UserInRoles">
             <summary>
             Navigation property for the users in this role.
             </summary>
@@ -142,7 +142,7 @@
             User crated time
             </summary>
         </member>
-        <member name="P:Cross.WebHost.Entities.User.Roles">
+        <member name="P:Cross.WebHost.Entities.User.UserInRoles">
             <summary>
             User of roles
             </summary>

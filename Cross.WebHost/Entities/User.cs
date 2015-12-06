@@ -100,7 +100,7 @@ namespace Cross.WebHost.Entities
         /// <summary>
         /// User of roles
         /// </summary>
-        public virtual ICollection<Role> Roles { get; set; }
+        public virtual ICollection<UserInRole> UserInRoles { get; set; }
 
         /// <summary>
         /// Navigation property for the claims this user possesses.
