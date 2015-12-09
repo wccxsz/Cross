@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.PlatformAbstractions;
 using Cross.WebHost.Common;
 using Cross.WebHost.Db;
+using Microsoft.AspNet.Cors.Infrastructure;
 using Microsoft.Data.Entity;
 
 namespace Cross.WebHost
@@ -47,6 +48,16 @@ namespace Cross.WebHost
                     builder.WithOrigins("http://example.com");
                 });
             });
+            //添加跨域访问
+            services.AddCors(options =>
+            {
+                var policy = new CorsPolicy();
+                policy.Headers.Add("*");
+                policy.Methods.Add("get,post");
+                policy.Origins.Add("http://localhost:1337/");
+                policy.SupportsCredentials = true;
+                options.AddPolicy("mypolicy", policy);
+            });
 
             services.AddMvc();
 
@@ -57,8 +68,6 @@ namespace Cross.WebHost
             services.AddSession();
 
             
-
-
 
 
             //// Add application services.
@@ -77,7 +86,7 @@ namespace Cross.WebHost
             // During development use the ErrorPage middleware to display error information in the browser
             app.UseDeveloperExceptionPage();
 
-            app.UseDatabaseErrorPage();            
+            app.UseDatabaseErrorPage();
 
             // Add the runtime information page that can be used by developers
             // to see what packages are used by the application
@@ -98,7 +107,6 @@ namespace Cross.WebHost
 
             // Add cookie-based authentication to the request pipeline
             //app.UseIdentity();
-
             // Add MVC to the request pipeline
             app.UseMvc(routes =>
             {
@@ -107,12 +115,7 @@ namespace Cross.WebHost
                     name: "default",
                     template: "{controller}/{action}/{id?}",
                     defaults: new {controller = "Home", action = "Index"});
-
-                routes.MapRoute(
-                    name: "api",
-                    template: "api/{controller}/{action}/{id?}");
             });
-            SampleData.InitCrossDatabaseAsync(app.ApplicationServices).Wait();
         }
     }
 }
