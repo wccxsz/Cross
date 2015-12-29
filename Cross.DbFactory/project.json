@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0-*",
+  "description": "Cross.DbFactory Class Library",
+  "authors": [ "whl" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+  "dependencies": {
+    "Cross.Entities": "1.0.0-*",
+    "EntityFramework.Commands": "7.0.0-rc1-final",
+    "EntityFramework7.Npgsql": "3.1.0-rc1-3",
+    "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final"
+  },
+  "commands": {
+    "ef": "EntityFramework.Commands"
+  }
+}
