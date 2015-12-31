@@ -23,7 +23,8 @@ namespace Cross.WebHost.Api
         [HttpPost]
         public async Task<MethodResult> Login(UserLoginDTO userLoginDTO)
         {
-              await HttpContext.Authentication.SignInAsync("ApplicationCookie", CreatePrincipal(userLoginDTO.UserName));
+            var authTypes = HttpContext.Authentication.GetAuthenticationSchemes();
+              await HttpContext.Authentication.SignInAsync(authTypes.First().AuthenticationScheme, CreatePrincipal(userLoginDTO.UserName));
 
             //var result = await SignInManager.PasswordSignInAsync(userLoginDTO.UserName, userLoginDTO.Password, userLoginDTO.RememberMe.Value, lockoutOnFailure: false);
             var ret = new MethodResult

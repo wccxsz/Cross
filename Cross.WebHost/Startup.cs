@@ -40,8 +40,7 @@ namespace Cross.WebHost
                 options.Cookies.ApplicationCookie.DataProtectionProvider = new DataProtectionProvider(new DirectoryInfo("C:\\Github\\Identity\\artifacts"));
                 options.Cookies.ApplicationCookie.CookieName = "Interop";
                 options.Cookies.ApplicationCookie.AccessDeniedPath = "/Home/AccessDenied";
-            })      
-            
+            })
             .AddDefaultTokenProviders();
 
             services.AddMvc();
@@ -82,7 +81,7 @@ namespace Cross.WebHost
             // Add static files to the request pipeline
             app.UseStaticFiles();
 
-            app.UseIdentity();
+            app.UseCookieAuthentication();
 
             app.UseMvc(routes =>
             {
