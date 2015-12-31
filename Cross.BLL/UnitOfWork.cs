@@ -34,7 +34,7 @@ namespace Cross.BLL
         // This code added to correctly implement the disposable pattern.
         public void Dispose()
         {
-            if (_db.IsValueCreated)
+            if (_db != null && _db.IsValueCreated)
             {
                 _db.Value.Dispose();
             }

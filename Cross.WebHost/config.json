@@ -1,0 +1,12 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "ASP.NET MVC Music Store"
+  },
+  "DefaultAdminUsername": "Administrator@test.com",
+  "DefaultAdminPassword": "YouShouldChangeThisPassword1!",
+  "Data": {
+    "DefaultConnection": {
+      "Connectionstring": "Server=localhost;Port=5432;Database=GrowDb;User Id=postgres;Password=whldym;Timeout=15;"
+    }
+  }
+}

@@ -2,6 +2,8 @@
 using Cross.DTO;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity;
+using System.Linq;
+using Microsoft.Extensions.OptionsModel;
 using System;
 
 namespace Cross.BLL
@@ -54,6 +56,22 @@ namespace Cross.BLL
             };
             var roleStore = new RoleStore<IdentityRole<int>, CrossContext, int>(_db);
             return roleStore.CreateAsync(role).Result.Succeeded;
+        }
+
+        /// <summary>
+        /// 根据账号获取用户信息
+        /// </summary>
+        /// <param name="UserName"></param>
+        /// <returns></returns>
+        public dynamic GetUserByName(string UserName)
+        {
+            var user = _db.Users.FirstOrDefault(c => c.NormalizedUserName == UserName);
+            if (user == null) return null;
+            return new
+            {
+                user.UserName,
+                user.PasswordHash
+            };
         }
     }
 }

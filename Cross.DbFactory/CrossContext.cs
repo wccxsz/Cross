@@ -12,8 +12,8 @@ namespace Cross.DbFactory
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);            
-            optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=GrowDb;User Id=postgres;Password=whldym;Timeout=15;");          
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=GrowDb;User Id=postgres;Password=whldym;Timeout=15;");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
