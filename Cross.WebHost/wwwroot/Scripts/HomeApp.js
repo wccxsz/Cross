@@ -6,13 +6,13 @@ HomeApp.controller('HomeController', HomeController);
 HomeApp.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
 
 var configFunction = function($stateProvider, $httpProvider, $locationProvider, $urlRouterProvider) {
-    $locationProvider.hashPrefix('!').html5Mode({ enabled: true });
+    //$locationProvider.hashPrefix('!').html5Mode({ enabled: true });
 
     //$stateProvider.when("", "images");
     $urlRouterProvider.deferIntercept();
     $stateProvider
         .state('images', {
-            url: '/single/images',
+            url: '/user/images',
             views: {
                 "Main": {
                     templateUrl: function(params) { return '/user/images'; }
@@ -20,7 +20,7 @@ var configFunction = function($stateProvider, $httpProvider, $locationProvider, 
             }
         })
         .state('video', {
-            url: '/single/video',
+            url: '/user/video',
             views: {
                 "Main": {
                     templateUrl: function(params) { return '/user/videos'; }

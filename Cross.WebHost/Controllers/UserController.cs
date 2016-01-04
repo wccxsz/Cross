@@ -10,6 +10,7 @@ namespace Cross.WebHost.Controllers
 {
     public class UserController : Controller
     {
+        [Route("user/images")]
         public IActionResult Images()
         {
             return View();
@@ -24,6 +25,5 @@ namespace Cross.WebHost.Controllers
         {
             return View();
         }
-
     }
 }
