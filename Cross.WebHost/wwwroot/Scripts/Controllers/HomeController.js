@@ -38,8 +38,10 @@
     $scope.menuClick = function(state) {
         $scope.currentSelectedMenu = state;
         for (var i = 0; i < $scope.Menus.length; i++) {
+            
             if ($scope.Menus[i].state === state) {
                 $scope.Menus[i].css = 'classic-menu-dropdown active';
+                $scope.models.Title = $scope.Menus[i].title;
             } else {
                 $scope.Menus[i].css = 'classic-menu-dropdown';
             }
