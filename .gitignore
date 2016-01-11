@@ -2,3 +2,9 @@
 /obj
 /artifacts
 /Cross.WebHost/node_modules
+/Cross.Framework/bin
+/Cross.WebHost/bin
+/Cross.Entities/bin
+/Cross.DTO/bin
+/Cross.DbFactory/bin
+/Cross.BLL/bin
